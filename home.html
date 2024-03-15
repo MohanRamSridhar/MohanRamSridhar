@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .menu-bar {
+            background-color: purple;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;/* */
+            width: 100%;
+            top: 0;
+            z-index: 999;
+        }
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 30px;
+            cursor: pointer;
+        }
+        .sticker {
+            position: absolute;
+            top: 60px; /* Adjust this value based on your menu bar height */
+            width: 100%;
+            height: calc(100% - 60px); /* Adjust this value based on your menu bar height */
+            background-image: url('/Users/mohanram/Desktop/Walkie Talkie/mohanface.PNG');
+            background-size: contain;
+            background-position: center;
+            z-index: 1;
+        }
+        .marquee {
+            position: absolute;
+            white-space: nowrap;
+            animation: rightThenLeft 8s linear infinite;
+            z-index: -1; /* Ensure text appears behind the sticker */
+            top: 50%; /* Center vertically */
+            right: 0; /* Start from the rightmost side of the screen */
+            transform: translateY(-50%); /* Center the text vertically */
+        }
+        @keyframes rightThenLeft {
+            0%   {right: 100%;}
+            100% {right: -100%;}
+            101% {right: 100%;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <a href="https://leetcode.com/MohanRamSridhar/" id="left1">LeetCode</a>
+        <a href="https://github.com/MohanRamSridhar" id="left2">GitHub</a>
+        <span>MOHAN RAM</span>
+        <a href="https://codeforces.com/profile/MohanRamS" id="right1">Codeforces</a>
+        <a href="https://www.hackerrank.com/profile/mohanram_sridha1" id="right2">HackerRank</a>
+    </div>
+    <div class="sticker"></div>
+    <div class="marquee">MOHAN RAM</div>
+
+    <!-- JavaScript to handle the click events -->
+    <script>
+        document.getElementById('left1').addEventListener('click', function() {
+            window.location.href = 'left1.html'; // Change the href accordingly
+        });
+        document.getElementById('left2').addEventListener('click', function() {
+            window.location.href = 'left2.html'; // Change the href accordingly
+        });
+        document.getElementById('right1').addEventListener('click', function() {
+            window.location.href = 'right1.html'; // Change the href accordingly
+        });
+        document.getElementById('right2').addEventListener('click', function() {
+            window.location.href = 'right2.html'; // Change the href accordingly
+        });
+    </script>
+</body>
+</html>
