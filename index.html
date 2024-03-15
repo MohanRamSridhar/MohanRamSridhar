@@ -9,6 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            overflow-x: hidden;
         }
         .menu-bar {
             background-color: purple;
@@ -30,7 +31,7 @@
             top: 60px; /* Adjust this value based on your menu bar height */
             width: 100%;
             height: calc(100% - 60px); /* Adjust this value based on your menu bar height */
-            background-image: url('https://github.com/MohanRamSridhar/MohanRamSridhar/blob/main/mohanface.PNG');
+            background-image: url('/Users/mohanram/Desktop/Walkie Talkie/mohanface.PNG');
             background-size: contain;
             background-position: center;
             z-index: 1;
@@ -41,16 +42,95 @@
             animation: rightThenLeft 8s linear infinite;
             z-index: -1; /* Ensure text appears behind the sticker */
             top: 50%; /* Center vertically */
-            right: 0; /* Start from the rightmost side of the screen */
             transform: translateY(-50%); /* Center the text vertically */
+            display: flex;
+        }
+        .marquee1 {
+            position: absolute;
+            white-space: nowrap;
+            animation: rightThenLeft 8s linear infinite;
+            z-index: -1; /* Ensure text appears behind the sticker */
+            top: 30%; /* Center vertically */
+            transform: translateY(-50%); /* Center the text vertically */
+            display: flex;
+        }
+        .marquee2 {
+            position: absolute;
+            white-space: nowrap;
+            animation: rightThenLeft 8s linear infinite;
+            z-index: -1; /* Ensure text appears behind the sticker */
+            top: 10%; /* Center vertically */
+            transform: translateY(-50%); /* Center the text vertically */
+            display: flex;
+        }
+        .marquee3 {
+            position: absolute;
+            white-space: nowrap;
+            animation: rightThenLeft 8s linear infinite;
+            z-index: -1; /* Ensure text appears behind the sticker */
+            top: 70%; /* Center vertically */
+            transform: translateY(-50%); /* Center the text vertically */
+            display: flex;
+        }
+        .marquee4 {
+            position: absolute;
+            white-space: nowrap;
+            animation: rightThenLeft 8s linear infinite;
+            z-index: -1; /* Ensure text appears behind the sticker */
+            top: 90%; /* Center vertically */
+            transform: translateY(-50%); /* Center the text vertically */
+            display: flex;
         }
         @keyframes rightThenLeft {
             0%   {right: 100%;}
             100% {right: -100%;}
             101% {right: 100%;}
         }
+        svg {
+            display: block;
+            font: 10.5em 'Montserrat';
+            width: 960px;
+            height: 300px;
+            margin: 0 auto;
+        }
 
+        .text-copy {
+            fill: none;
+            stroke: white;
+            stroke-dasharray: 6% 29%;
+            stroke-width: 5px;
+            stroke-dashoffset: 0%;
+            animation: stroke-offset 5.5s infinite linear;
+        }
 
+        .text-copy:nth-child(1){
+        stroke: #641ede;
+        animation-delay: -1;
+        }
+
+        .text-copy:nth-child(2){
+        stroke: #e20863;
+        animation-delay: -2s;
+        }
+
+        .text-copy:nth-child(3){
+        stroke: #09b5e4;
+        animation-delay: -3s;
+        }
+
+        .text-copy:nth-child(4){
+        stroke: #BD0034;
+        animation-delay: -4s;
+        }
+
+        .text-copy:nth-child(5){
+        stroke: #f603ea;
+        animation-delay: -5s;
+        }
+
+        @keyframes stroke-offset{
+        100% {stroke-dashoffset: -35%;}
+        }
     </style>
 </head>
 <body>
@@ -62,7 +142,76 @@
         <a href="https://www.hackerrank.com/profile/mohanram_sridha1" id="right2">HackerRank</a>
     </div>
     <div class="sticker"></div>
-    <div class="marquee">MOHAN RAM</div>
+    <div class="marquee">
+        <svg viewBox="0 0 1100 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
+          </symbol>
+          <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+    </div>
+    <div class="marquee1">
+        <svg viewBox="0 0 1100 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
+          </symbol>
+          <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+    </div>
+    <div class="marquee2">
+        <svg viewBox="0 0 1100 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
+          </symbol>
+          <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+    </div>
+    <div class="marquee3">
+        <svg viewBox="0 0 1100 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
+          </symbol>
+          <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+    </div>
+    <div class="marquee4">
+        <svg viewBox="0 0 1100 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
+          </symbol>
+          <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+    </div>
 
     <!-- JavaScript to handle the click events -->
     <script>
