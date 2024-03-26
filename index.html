@@ -15,7 +15,7 @@
             background-color: purple;
             text-align: center;
             padding: 20px 0;
-            position: fixed;/* */
+            position: fixed;
             width: 100%;
             top: 0;
             z-index: 999;
@@ -23,14 +23,14 @@
         .menu-bar a {
             color: white;
             text-decoration: none;
-            margin: 0 30px;
+            margin: 0 10px; /* Adjust margin for smaller screens */
             cursor: pointer;
         }
         .sticker {
             position: absolute;
-            top: 60px; /* Adjust this value based on your menu bar height */
+            top: 60px;
             width: 100%;
-            height: calc(100% - 60px); /* Adjust this value based on your menu bar height */
+            height: calc(100% - 60px);
             background-image: url("https://github.com/MohanRamSridhar/MohanRamSridhar/blob/main/mohanface.png");
             background-size: contain;
             background-position: center;
@@ -40,60 +40,18 @@
             position: absolute;
             white-space: nowrap;
             animation: rightThenLeft 8s linear infinite;
-            z-index: -1; /* Ensure text appears behind the sticker */
-            top: 50%; /* Center vertically */
-            transform: translateY(-50%); /* Center the text vertically */
+            z-index: -1;
+            top: 50%;
+            transform: translateY(-50%);
             display: flex;
-        }
-        .marquee1 {
-            position: absolute;
-            white-space: nowrap;
-            animation: rightThenLeft 8s linear infinite;
-            z-index: -1; /* Ensure text appears behind the sticker */
-            top: 30%; /* Center vertically */
-            transform: translateY(-50%); /* Center the text vertically */
-            display: flex;
-        }
-        .marquee2 {
-            position: absolute;
-            white-space: nowrap;
-            animation: rightThenLeft 8s linear infinite;
-            z-index: -1; /* Ensure text appears behind the sticker */
-            top: 10%; /* Center vertically */
-            transform: translateY(-50%); /* Center the text vertically */
-            display: flex;
-        }
-        .marquee3 {
-            position: absolute;
-            white-space: nowrap;
-            animation: rightThenLeft 8s linear infinite;
-            z-index: -1; /* Ensure text appears behind the sticker */
-            top: 70%; /* Center vertically */
-            transform: translateY(-50%); /* Center the text vertically */
-            display: flex;
-        }
-        .marquee4 {
-            position: absolute;
-            white-space: nowrap;
-            animation: rightThenLeft 8s linear infinite;
-            z-index: -1; /* Ensure text appears behind the sticker */
-            top: 90%; /* Center vertically */
-            transform: translateY(-50%); /* Center the text vertically */
-            display: flex;
-        }
-        @keyframes rightThenLeft {
-            0%   {right: 100%;}
-            100% {right: -100%;}
-            101% {right: 100%;}
         }
         svg {
             display: block;
             font: 10.5em 'Montserrat';
-            width: 960px;
-            height: 300px;
+            width: 90vw; /* Adjust width for smaller screens */
+            height: auto; /* Ensure aspect ratio is maintained */
             margin: 0 auto;
         }
-
         .text-copy {
             fill: none;
             stroke: white;
@@ -102,130 +60,63 @@
             stroke-dashoffset: 0%;
             animation: stroke-offset 5.5s infinite linear;
         }
-
         .text-copy:nth-child(1){
-        stroke: #641ede;
-        animation-delay: -1;
+            stroke: #641ede;
+            animation-delay: -1;
         }
-
-        .text-copy:nth-child(2){
-        stroke: #e20863;
-        animation-delay: -2s;
-        }
-
-        .text-copy:nth-child(3){
-        stroke: #09b5e4;
-        animation-delay: -3s;
-        }
-
-        .text-copy:nth-child(4){
-        stroke: #BD0034;
-        animation-delay: -4s;
-        }
-
-        .text-copy:nth-child(5){
-        stroke: #f603ea;
-        animation-delay: -5s;
-        }
-
+        /* Add more styles for other .text-copy elements */
         @keyframes stroke-offset{
-        100% {stroke-dashoffset: -35%;}
+            100% {stroke-dashoffset: -35%;}
+        }
+        @media screen and (max-width: 768px) { /* Adjust for smaller screens */
+            .menu-bar {
+                padding: 10px 0; /* Adjust padding for smaller screens */
+            }
+            .menu-bar a {
+                margin: 0 5px; /* Adjust margin for smaller screens */
+            }
+            .sticker {
+                top: 40px; /* Adjust top position for smaller screens */
+                height: calc(100% - 40px); /* Adjust height for smaller screens */
+            }
+            .marquee {
+                top: 30%; /* Adjust top position for smaller screens */
+            }
         }
     </style>
 </head>
 <body>
     <div class="menu-bar">
-        <a href="https://leetcode.com/MohanRamSridhar/" id="left1">LeetCode</a>
-        <a href="https://github.com/MohanRamSridhar" id="left2">GitHub</a>
+        <a href="https://leetcode.com/MohanRamSridhar/">LeetCode</a>
+        <a href="https://github.com/MohanRamSridhar">GitHub</a>
         <span>MOHAN RAM</span>
-        <a href="https://codeforces.com/profile/MohanRamS" id="right1">Codeforces</a>
-        <a href="https://www.hackerrank.com/profile/mohanram_sridha1" id="right2">HackerRank</a>
+        <a href="https://codeforces.com/profile/MohanRamS">Codeforces</a>
+        <a href="https://www.hackerrank.com/profile/mohanram_sridha1">HackerRank</a>
     </div>
     <div class="sticker"></div>
     <div class="marquee">
         <svg viewBox="0 0 1100 300">
-          <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
-          </symbol>
-          <g class="g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-          </g>
-        </svg>
-    </div>
-    <div class="marquee1">
-        <svg viewBox="0 0 1100 300">
-          <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
-          </symbol>
-          <g class="g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-          </g>
-        </svg>
-    </div>
-    <div class="marquee2">
-        <svg viewBox="0 0 1100 300">
-          <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
-          </symbol>
-          <g class="g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-          </g>
-        </svg>
-    </div>
-    <div class="marquee3">
-        <svg viewBox="0 0 1100 300">
-          <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
-          </symbol>
-          <g class="g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-          </g>
-        </svg>
-    </div>
-    <div class="marquee4">
-        <svg viewBox="0 0 1100 300">
-          <symbol id="s-text">
-            <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
-          </symbol>
-          <g class="g-ants">
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-            <use xlink:href="#s-text" class="text-copy"></use>
-          </g>
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">MOHAN RAM</text>
+            </symbol>
+            <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
         </svg>
     </div>
 
     <!-- JavaScript to handle the click events -->
     <script>
-        document.getElementById('left1').addEventListener('click', function() {
-            window.location.href = 'left1.html'; // Change the href accordingly
-        });
-        document.getElementById('left2').addEventListener('click', function() {
-            window.location.href = 'left2.html'; // Change the href accordingly
-        });
-        document.getElementById('right1').addEventListener('click', function() {
-            window.location.href = 'right1.html'; // Change the href accordingly
-        });
-        document.getElementById('right2').addEventListener('click', function() {
-            window.location.href = 'right2.html'; // Change the href accordingly
+        document.querySelectorAll('.menu-bar a').forEach(function(el) {
+            el.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default link behavior
+                var href = this.getAttribute('href');
+                window.location.href = href;
+            });
         });
     </script>
 </body>
