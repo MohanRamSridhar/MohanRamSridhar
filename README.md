@@ -4,7 +4,7 @@
 <div align="center">
   <h1>Hi there! 👋 I'm Mohan Ram Sridhar</h1>
   <!-- Links to social profiles -->
-  <pa
+  <pa>
     <a href="https://www.linkedin.com/in/mohanramsridhar/">LinkedIn</a> - 
     <a href="https://mohanramsridhar.github.io/mohanRam/">Portfolio</a> -
     <a href="https://leetcode.com/u/MohanRamSridhar/">Leetcode</a>
@@ -47,33 +47,6 @@
   <!-- CSS --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="30" height="30" /> 
 </p>
 
-<!-- Frameworks and Libraries -->
-<p style="display: flex; justify-content: center;"><b>Frameworks and Libraries:</b>
-  <!-- Next.js --><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="30" height="30"/> 
-  <!-- React --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="30" height="30" /> 
-  <!-- Redux --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux" width="30" height="30" /> 
-  <!-- Express.js --><img src="https://img.shields.io/badge/-Express.js-F09437?logo=Express.js&logoColor=white&style=flat" alt="Express.js" width="50" height="30" />
- <!-- Node.js --> <img src="https://img.shields.io/badge/-Node.js-4679A4?logo=Node.js&logoColor=orange&style=flat" alt="Node.js" width="50" height="30" />
-  <!-- Tailwind CSS --><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="30" height="30" /> 
-  <!-- npm --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" width="30" height="30" />
-  <!-- Numpy --><img src="https://img.shields.io/badge/-Numpy-0E7ACE?logo=numpy&logoColor=white&style=flat" alt="Numpy" width="50" height="30" />
-  <!-- Pandas --><img src="https://img.shields.io/badge/-Pandas-150455?logo=pandas&logoColor=white&style=flat" alt="Pandas" width="50" height="30" />
-  <!-- Sklearn --><img src="https://img.shields.io/badge/-Sklearn-F09437?logo=scikit-learn&logoColor=white&style=flat" alt="Sklearn" width="50" height="30" />
-</p>
-
-<!-- Tools and Platforms -->
-<p style="display: flex; justify-content: center;"><b>Tools and Platforms:</b>
-  <!-- Git --> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="30" height="30" /> 
-  <!-- GitHub --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="30" height="30" />
-  <!-- Cloudflare --><img src="https://img.shields.io/badge/-Cloudflare-4679A4?logo=Cloudflare&logoColor=orange&style=flat" alt="Cloudflare" width="50" height="30" />
-  <!-- Visual Studio Code --> <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-25AEF4?logo=visualstudio&logoColor=white&style=flat" alt="Visual Studio Code" width="50" height="30" />
-</p>
-
-<!-- Operating Systems -->
-<p style="display: flex; justify-content: center;"><b>Operating Systems:</b>
-  <!-- Windows --> <img src="https://img.shields.io/badge/-Windows-0F7BCF?logo=Windows&logoColor=white&style=flat" alt="Windows" width="50" height="30" />
-  <!-- Linux --><img src="https://img.shields.io/badge/-Linux-EDBD2B?logo=Linux&logoColor=black&style=flat" alt="Linux" width="50" height="30" />
-</p>
 
 </details> 
 
