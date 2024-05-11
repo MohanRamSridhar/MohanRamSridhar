@@ -81,35 +81,19 @@
 <summary><b>⚙️ GitHub Analytics</b></summary><br>
   <div align="center">
     <!-- Graph of Commits -->
-    <img align="center" height="155em"src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=princegupta101&theme=github_dark" alt="Graph of Commits" />
+    <img align="center" height="155em"src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohanRamSridhar&theme=github_dark" alt="Graph of Commits" />
     <!-- Repositories per language -->
-    <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PrinceGupta101&theme=github_dark" alt="Top Languages" />
+    <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MohanRamSridhar&theme=github_dark" alt="Top Languages" />
     <!-- GitHub stats -->
-    <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=PrinceGupta101&theme=github_dark" alt="GitHub Stats" />
+    <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=MohanRamSridhar&theme=github_dark" alt="GitHub Stats" />
       <!-- Repositories per language -->
-    <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PrinceGupta101&theme=github_dark" alt="Most Commit Languages" />
+    <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MohanRamSridhar&theme=github_dark" alt="Most Commit Languages" />
     <!-- Histogram of Commits -->
-    <img align="center" height="155em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=princegupta101&theme=github_dark" alt="Histogram of Commits" /></br>
+    <img align="center" height="155em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MohanRamSridhar&theme=github_dark" alt="Histogram of Commits" /></br>
   </div>
-
-<!-- Top Repositories -->
-<details>
-  <summary><b>Top Repositories</b></summary><br>
-   <p align="center">
-    <!-- Learning Management System -->
-    <a href="https://github.com/Princegupta101/Learning-Management-System"> <img width="250" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Princegupta101&repo=Learning-Management-System&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Learning Management System">
-    </a>
-    <!-- Live Code Share -->
-    <a href="https://github.com/Princegupta101/Live-Code-Share"> <img width="250" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Princegupta101&repo=Live-Code-Share&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Live Code Share">
-    </a>
-    <!-- Portfolio -->
-    <a href="https://github.com/Princegupta101/Portfolio"> <img width="250" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Princegupta101&repo=Portfolio&theme=react&bg_color=1F222E&title_color=F8D866&hide_border=true&icon_color=F8D866&show_icons=false" alt="Portfolio">
-    </a>
-  </p>     
-</details>
 
 
 <!-- Profile views counter -->
 <p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=princegupta101&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> 
+  <img src="https://komarev.com/ghpvc/?username=MohanRamSridhar&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> 
 </p>
