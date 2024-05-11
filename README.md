@@ -20,36 +20,7 @@
 </p>
 <!-- List of personal information -->
 👨🏻‍💻 **About Me**<img src="https://github.com/Princegupta101/Princegupta101/blob/main/Assets/illustration.png?raw=true" width="280px" height="200px" align="right"> 
-
-- 🌱 Mastering Next.js & TypeScript for robust web apps.
-- 👯 Collaborate on imaginative Next.js projects!
-- 💬 Ask about dynamic Full Stack apps—MERN to Next.js.
-- 🎓 Committed to continuous learning & tech exploration.
-- ⚡ Fun fact: Debugging with curiosity, not just tools.
-- 📫 Reach me: **mohanram.sridhar2023@vitstudent.ac.in**
  
-
-<!-- Icons representing the tech stack -->
-<details> 
- <summary><b>🛠Tech Stack</b></summary><br>
-
-<!-- Languages -->
-<p style="display: flex; justify-content: center;"><b>Languages:</b>
-  <!-- JavaScript --> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="30" height="30" /> 
-  <!-- Java --> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="30" height="30" alt="Java" />
-  <!-- C --> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="30" height="30" /> 
-  <!-- C++ --> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="30" height="30" /> 
-  <!-- TypeScript --> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="30" height="30" /> 
-  <!-- Python --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="30" height="30" />
-  <!-- MongoDB --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="30" height="30" /> 
-  <!-- MySQL --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="30" height="30" /> 
-  <!-- HTML5 --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="30" height="30" /> 
-  <!-- CSS --><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="30" height="30" /> 
-</p>
-
-
-</details> 
-
 <!-- GitHub Analytics -->
 <summary><b>⚙️ GitHub Analytics</b></summary><br>
   <div align="center">
