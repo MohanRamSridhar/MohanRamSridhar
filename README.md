@@ -22,7 +22,7 @@
 </p>
 <!-- List of personal information -->
 👨🏻‍💻 **About Me**
-I love the thrill of competition and the intellectual challenge that comes with it. Whether it's tackling complex algorithmic puzzles or optimizing code for efficiency, I'm always eager to push my limits and learn something new. My preferred platforms include Codeforces, LeetCode, HackerRank.
+<p>I love the thrill of competition and the intellectual challenge that comes with it. Whether it's tackling complex algorithmic puzzles or optimizing code for efficiency, I'm always eager to push my limits and learn something new. My preferred platforms include Codeforces, LeetCode, HackerRank.</p>
 <img src="https://github.com/Princegupta101/Princegupta101/blob/main/Assets/illustration.png?raw=true" width="280px" height="200px" align="right"> 
  
 <!-- GitHub Analytics -->
