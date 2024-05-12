@@ -30,7 +30,7 @@
 <summary><b>⚙️ GitHub Analytics</b></summary><br>
   <div align="center">
     <!-- Graph of Commits -->
-    <img align="center" height="155em"src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohanRamS&theme=github_dark" alt="Graph of Commits" />
+    <img align="center" height="155em"src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohanRamSridhar&theme=github_dark" alt="Graph of Commits" />
     <!-- Repositories per language -->
     <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MohanRamSridhar&theme=github_dark" alt="Top Languages" />
     <!-- GitHub stats -->
