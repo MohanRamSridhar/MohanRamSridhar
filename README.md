@@ -27,6 +27,7 @@
 <summary><b>⚙️ GitHub Analytics</b></summary><br>
   <div align="center">
     <!-- Graph of Commits -->
+    <a href="https://leetcode.com/MohanRamSridhar/"><img width="48%" src="https://leetcode.card.workers.dev/drknzz?theme=dark&font=baloo&extension=null&border=2&border_radius=8"></a>
     <img align="center" height="155em"src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohanRamSridhar&theme=github_dark" alt="Graph of Commits" />
     <!-- Repositories per language -->
     <img align="center" height="155em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MohanRamSridhar&theme=github_dark" alt="Top Languages" />
