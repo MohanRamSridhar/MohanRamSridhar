@@ -22,7 +22,7 @@
 </p>
 <!-- List of personal information -->
 <h4>👨🏻‍💻 About Me</h4>
-<img src="https://github.com/MohanRamSridhar/MohanRamSridhar/blob/main/readmeimg?raw=true" width="300px" height="300px" align="right">
+<img src="https://github.com/MohanRamSridhar/MohanRamSridhar/blob/main/readmeimg?raw=true" width="300px" height="250px" align="right">
 <p>I love the thrill of competition and the intellectual challenge that comes with it. Whether it's tackling complex algorithmic puzzles or optimizing code for efficiency, I'm always eager to push my limits and learn something new. My preferred platforms include Codeforces, LeetCode, HackerRank.</p>
 <p>Recently, I've embarked on a journey into the world of open source. I believe in the power of collaboration and community-driven development to create impactful software solutions.</p>
  
