@@ -10,6 +10,8 @@
     <a href="https://leetcode.com/u/MohanRamSridhar/">Leetcode</a>
   </p> 
 </div>
+<h4 align="center">Visitor's count 👀</h4>
+<p align="center"><img src="https://profile-counter.glitch.me/{MohanRamSridhar}/count.svg" alt="DishaModi :: Visitor's Count" /></p>
 
 <!-- Brief introduction -->
 <h3 align="center">A first year CSE Undergrad at VIT Chennai, aspiring Software Engineer, and Programming enthusiast.</h3>
@@ -36,8 +38,3 @@
     <img align="center" height="155em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MohanRamSridhar&theme=github_dark" alt="Histogram of Commits" /></br>
   </div>
 
-
-<!-- Profile views counter -->
-<p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=MohanRamSridhar&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> 
-</p>
