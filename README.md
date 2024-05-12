@@ -21,7 +21,7 @@
   <img src="https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif" alt="Line" />
 </p>
 <!-- List of personal information -->
-👨🏻‍💻 **About Me**
+<h4>👨🏻‍💻 About Me</h4>
 <p>I love the thrill of competition and the intellectual challenge that comes with it. Whether it's tackling complex algorithmic puzzles or optimizing code for efficiency, I'm always eager to push my limits and learn something new. My preferred platforms include Codeforces, LeetCode, HackerRank.</p>
 <img src="https://github.com/Princegupta101/Princegupta101/blob/main/Assets/illustration.png?raw=true" width="280px" height="200px" align="right"> 
  
