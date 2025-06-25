@@ -6,7 +6,7 @@
   <!-- Links to social profiles -->
   <pa>
     <a href="https://www.linkedin.com/in/mohanramsridhar/">LinkedIn</a> - 
-    <a href="https://mohanrams.me">Portfolio</a> -
+    <a href="[https://mohanrams.me](https://www.mohanram.xyz)">Portfolio</a> -
     <a href="https://leetcode.com/u/MohanRamSridhar/">Leetcode</a>
   </p> 
 </div>
