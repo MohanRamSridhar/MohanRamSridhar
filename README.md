@@ -10,8 +10,6 @@
     <a href="https://leetcode.com/u/MohanRamSridhar/">Leetcode</a>
   </p> 
 </div>
-<h4 align="center">Visitor's count 👀</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/{MohanRamSridhar}/count.svg" alt="DishaModi :: Visitor's Count" /></p>
 
 <!-- Brief introduction -->
 <h3 align="center">A CSE Undergrad at VIT Chennai, aspiring Software Engineer, and Programming enthusiast.</h3>
